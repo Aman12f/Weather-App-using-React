@@ -1,0 +1,105 @@
+.custom-input {
+    width: 200px; /* Adjust this value as needed */
+  }
+
+  .custom-width {
+    width: 100%;
+  }
+  .container1{
+    width: 30%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  .container{
+    height: 85vh;
+    width: 75vw;
+  }
+ .ch1{
+   width: 60%;
+  }
+  .ch2{
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+ }
+ .c6{
+   /* border: 2px solid black; */
+ }
+ .c7{
+  /* border: 2px solid black; */
+ }
+ .c4{
+  width: 100%;
+ }
+ table {
+  width: 100%;
+  border-collapse: collapse;
+  font-weight: bold;
+}
+table, th, td {
+  /* border: 1px solid #ccc; */
+}
+tbody tr {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+.searchBar{
+  /* border: 2px solid red; */
+  background-color: rgba(0, 0, 0, 0.1);
+  
+}
+.image img {
+  height: 180px;
+  width: 180px;
+  /* border: 2px solid black; */
+}
+.full-screen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  /* background-color: #f0f0f0; Optional: Set a background color for the entire screen */
+}
+
+.ch1 {
+  position: relative; /* To use pseudo-elements */
+  padding: 20px; /* Optional: Add padding to the .ch1 class */
+  /* border-radius: 10px; Optional: Add border-radius for rounded corners */
+  overflow: hidden; /* Ensure the pseudo-element stays within the parent */
+  color: white;
+}
+
+.ch1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('./images/pexels-jplenio-1119976.jpg'); /* Add your background image URL */
+  background-size: cover; /* Make the background image cover the entire div */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  /* opacity: 0.5; Set the desired opacity */
+  z-index: 1; /* Place it below the content */
+}
+
+.ch1 > * {
+  position: relative; /* Ensure content is above the background image overlay */
+  z-index: 2;
+}
+
+.searchBar::placeholder {
+  color: white; /* Change the placeholder color to white */
+}
+
+.search-button{
+  border: 2px solid white;
+}
