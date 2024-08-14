@@ -18,9 +18,14 @@ Technologies Used
 Front-end: ReactJS, Redux, Axios, Sass, React-Bootstrap
 API: OpenWeatherMap API
 Date and Time: Intl.DateTimeFormat, city-timezones package
+
 Features
 Real-time Weather Data: Fetches and displays weather information such as temperature, humidity, wind speed, and visibility.
 City Search: Users can search for weather information by entering a city name.
 Time Zone Support: Displays the current date and time for the selected city based on its time zone.
 Responsive Design: The app is fully responsive and works well on different screen sizes.
 Error Handling: Provides clear error messages when the city is not found or if there's an issue with the API.
+
+Screenshots
+![City Search and Results](https://github.com/Aman12f/Weather-App-using-React/blob/main/Screenshot%20(2393).png?raw=true)
+
