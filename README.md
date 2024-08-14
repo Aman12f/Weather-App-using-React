@@ -37,75 +37,9 @@ The **Weather App** is a project aimed at providing real-time weather updates fo
 ![City Search and Results](https://github.com/Aman12f/Weather-App-using-React/blob/main/Screenshot%20(2393).png?raw=true)
 ![City Search and Results](https://github.com/Aman12f/Weather-App-using-React/blob/main/Screenshot%20(2394).png?raw=true)
 
-## 🛠️ Setup
+## 🌐 Live Demo
 
-To get a local copy up and running, follow these steps:
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Aman12f/Weather-App-using-React.git
-   cd Weather-App-using-React
-
-Install dependencies:
-
-bash
-Copy code
-npm install
-Create a .env file in the root directory and add your OpenWeather API key:
-
-bash
-Copy code
-VITE_API_KEY=your_api_key_here
-Run the development server:
-
-bash
-Copy code
-npm run dev
-Open your browser and navigate to http://localhost:3000.
-
-
-Here's the README.md content in a format you can directly copy and paste into your GitHub README.md file:
-
-markdown
-Copy code
-# Weather App 🌤️
-
-A sleek, responsive weather application built using ReactJS, Redux, and other modern web technologies. This app allows users to search for real-time weather information by city, displaying current temperature, humidity, wind speed, and visibility. It also shows the current date and time based on the city's timezone.
-
-## 📋 Table of Contents
-
-- [General Information](#general-information)
-- [Technologies Used](#technologies-used)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-## 📝 General Information
-
-The **Weather App** is a project aimed at providing real-time weather updates for any city worldwide. It fetches data from the OpenWeather API and presents it in a user-friendly and visually appealing format. The app also calculates the local time for the selected city, making it a handy tool for travelers or anyone curious about weather conditions in different parts of the world.
-
-## 💻 Technologies Used
-
-- **Front-end**: ReactJS, Redux, Axios, Sass, React-Bootstrap
-- **API**: OpenWeatherMap API
-- **Date and Time**: Intl.DateTimeFormat, city-timezones package
-
-## ✨ Features
-
-- **Real-time Weather Data**: Fetches and displays weather information such as temperature, humidity, wind speed, and visibility.
-- **City Search**: Users can search for weather information by entering a city name.
-- **Time Zone Support**: Displays the current date and time for the selected city based on its time zone.
-- **Responsive Design**: The app is fully responsive and works well on different screen sizes.
-- **Error Handling**: Provides clear error messages when the city is not found or if there's an issue with the API.
-
-## 📸 Screenshots
-
-![City Search and Results](https://github.com/Aman12f/Weather-App-using-React/blob/main/Screenshot%20(2393).png?raw=true)
-![City Search and Results](https://github.com/Aman12f/Weather-App-using-React/blob/main/Screenshot%20(2394).png?raw=true)
+Check out the live demo of the Weather App here: [Weather App Live Demo](https://weather-app-using-react-smoky.vercel.app/)
 
 
 ## 📫 Contact
